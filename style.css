@@ -12,8 +12,7 @@ body{
     min-height: 100vh;
 }
 .app{
-    height: auto;
-    min-height: 90vh;
+    height: 90vh;
     width: 90vw;
     background-color: white;
     border-radius: 22px;
@@ -103,8 +102,8 @@ padding-left: 40px;
 padding-right: 40px;
 position: relative;
 margin-top: 30px;
-overflow-y: auto;
-max-height: 100%;
+/* overflow-y: scroll; */
+
 }
 .tabs
 {
@@ -132,10 +131,9 @@ max-height: 100%;
     cursor: pointer;
 }
 .hero{
-    height: auto;
    position: relative; 
     width:100%; 
-    min-height: 250px;
+    height: 250px;
     border-radius: 20px;
     background-image: url("./AssignmentPhotos/herosectionMain.jpg");
     background-size: cover;
@@ -227,9 +225,9 @@ color: white;
     cursor: pointer;
 }
 .section-artist{
-   height: auto;
+  
     width:full; 
-    min-height: 250px; 
+    height: 250px; 
     margin-top: 12px;
 }
 
@@ -345,9 +343,9 @@ color: white;
 }
 
 .continue{
-height: auto;
+
     width:full; 
-    min-height: 250px; 
+    height: 250px; 
     margin-top: 12px;
     position: relative;
 }
